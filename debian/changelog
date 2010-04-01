@@ -1,0 +1,5 @@
+libphp-swiftmailer (4.0.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #576088)
+
+ -- Nicolas Roudaire <nikrou77@gmail.com>  Wed, 31 Mar 2010 08:28:25 +0200

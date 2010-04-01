@@ -1,0 +1,24 @@
+Source: libphp-swiftmailer
+Section: php
+Priority: optional
+Maintainer: Nicolas Roudaire <nikrou77@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Homepage: http://swiftmailer.org/
+Vcs-Git: git://git.debian.org/git/pkg-symfony/swift.git
+Vcs-Browser: http://git.debian.org/?p=pkg-symfony/swift.git
+
+Package: libphp-swiftmailer
+Architecture: all
+Depends: ${misc:Depends}, libapache2-mod-php5 | php5 | php5-cgi
+Description: component-based library for sending e-mails
+ Swift Mailer is component based mailing solution for PHP 5
+ Send emails using SMTP, sendmail, postfix or a custom Transport
+ implementation of your own. It Supports servers that require username
+ and password and/or encryption.
+ .
+ Features:
+  - SMTP authentication
+  - event-driven plugins to customize the library
+  - MIME compliant HTML/multipart emails
+  - large attachments and inline/embedded images with low memory use

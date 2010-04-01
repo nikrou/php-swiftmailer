@@ -1,0 +1,4 @@
+version=3
+http://swiftmailer.org/download \
+/downloads/get/Swift-([\d\.]+).tar.gz
+
