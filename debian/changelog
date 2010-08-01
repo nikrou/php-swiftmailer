@@ -1,5 +1,12 @@
 libphp-swiftmailer (4.0.6-1) unstable; urgency=low
 
+  [ Nicolas Roudaire ]
   * Initial release (Closes: #576088)
 
- -- Nicolas Roudaire <nikrou77@gmail.com>  Wed, 31 Mar 2010 08:28:25 +0200
+  [ Jeremy T. Bouse ]
+  * debian/gbp.conf: Standardize settings in package
+  * debian/source/format: Upgrade to 3.0 (quilt)
+  * debian/control: Update package control
+  * Move install directory to /usr/share/php/Swift
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sun, 01 Aug 2010 10:30:12 -0400
