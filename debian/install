@@ -1,1 +1,1 @@
-lib usr/share/php/libphp-swiftmailer
+lib/* usr/share/php/Swift
