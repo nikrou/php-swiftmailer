@@ -1,3 +1,9 @@
+libphp-swiftmailer (4.1.0-1) unstable; urgency=low
+  * New upstream release
+  * Upgrade Standards-Version to 3.9.2. No change for package
+
+ -- Nicolas Roudaire <nikrou77@gmail.com>  Sat, 02 Jul 2011 20:42:53 +0200
+
 libphp-swiftmailer (4.0.6-1) unstable; urgency=low
 
   [ Nicolas Roudaire ]
