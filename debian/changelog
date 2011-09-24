@@ -1,3 +1,9 @@
+libphp-swiftmailer (4.1.0-2) unstable; urgency=low
+
+  * debian/copyright: Update to resolve lintian DEP-5 warning
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Sat, 24 Sep 2011 00:27:53 -0400
+
 libphp-swiftmailer (4.1.0-1) unstable; urgency=low
   * New upstream release
   * Upgrade Standards-Version to 3.9.2. No change for package
