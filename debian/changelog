@@ -1,3 +1,14 @@
+libphp-swiftmailer (4.1.2-1) unstable; urgency=low
+
+  [ Jeremy T. Bouse ]
+  * debian/watch: First attempt to correct watch file
+  * Imported Upstream version 4.1.2
+
+  [ Nicolas Roudaire ]
+  * Fix php5 dependency
+
+ -- Nicolas Roudaire <nikrou77@gmail.com>  Sun, 25 Sep 2011 14:50:13 +0200
+
 libphp-swiftmailer (4.1.0-2) unstable; urgency=low
 
   * debian/copyright: Update to resolve lintian DEP-5 warning
