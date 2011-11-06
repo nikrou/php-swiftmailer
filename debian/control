@@ -11,7 +11,7 @@ Vcs-Browser: http://git.debian.org/?p=collab-maint/swift.git
 
 Package: libphp-swiftmailer
 Architecture: all
-Depends: ${misc:Depends}, php5 | php5-cli | php5-cgi
+Depends: ${misc:Depends}, php5 | php5-cli
 Description: component-based library for sending e-mails
  Swift Mailer is component based mailing solution for PHP 5
  Send emails using SMTP, sendmail, postfix or a custom Transport
