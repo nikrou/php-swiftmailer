@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Nicolas Roudaire <nikrou77@gmail.com>
 Uploaders: Jeremy T. Bouse <jbouse@debian.org>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://swiftmailer.org/
 Vcs-Git: git://git.debian.org/collab-maint/swift.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/swift.git
