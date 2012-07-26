@@ -1,3 +1,9 @@
+libphp-swiftmailer (4.2.1-1) unstable; urgency=low
+
+  * Imported Upstream version 4.2.1
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Thu, 26 Jul 2012 14:50:05 -0400
+
 libphp-swiftmailer (4.2.0-1) unstable; urgency=low
 
   * Imported Upstream version 4.2.0
