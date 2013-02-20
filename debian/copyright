@@ -1,9 +1,10 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=174
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Swift Mailer
 Source: http://swiftmailer.org/
 
 Files: *
 Copyright: 2004-2009 Chris Corbyn       http://swiftmailer.org/
+           2009-2013 Fabien Potencier   
 License: LGPL-3
  This package is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -23,7 +24,7 @@ License: LGPL-3
  License, version 3, can be found in /usr/share/common-licenses/LGPL-3
 
 Files: debian/*
-Copyright: 2010, Nicolas Roudaire <nikrou77@gmail.com>
+Copyright: 2010-13, Nicolas Roudaire <nikrou77@gmail.com>
            2010-11, Jeremy T. Bouse <jbouse@debian.org>
 License: GPL-2
  This package is free software; you can redistribute it and/or modify
