@@ -1,9 +1,11 @@
-libphp-swiftmailer (4.3.0-1) unstable; urgency=low
+libphp-swiftmailer (5.0.1-1) unstable; urgency=low
 
-  * Imported Upstream version 4.3.0
-  * debian/control: Update Standard Policy (3.9.4) no changes needed
+  * Imported Upstream version 5.0.1
+  * debian/control:
+      - Update Standard Policy (3.9.4) no changes needed
+      - Update vcs fields to canonical ones
 
- -- Nicolas Roudaire <nikrou77@gmail.com>  Sat, 16 Feb 2013 13:36:14 +0100
+ -- Nicolas Roudaire <nikrou77@gmail.com>  Thu, 04 Jul 2013 09:30:01 +0200
 
 libphp-swiftmailer (4.2.1-1) unstable; urgency=low
 
