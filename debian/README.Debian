@@ -1,0 +1,9 @@
+SwiftMailer for debian
+----------------------
+
+Upstream used to provied a file - lib/mime_types.php - with all mime-types 
+used by SwiftMailer. With that new release, upstream provides now a 
+script - lib/swiftmailer_generate_mimes_config.php - to generate that file. 
+The script is intentionnally not executable. Feel free to change that. 
+
+ -- Nicolas Roudaire <nikrou77@gmail.com>, Tue, 06 May 2014 08:11:44 +0200

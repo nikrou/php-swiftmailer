@@ -3,8 +3,8 @@ Section: php
 Priority: optional
 Maintainer: Nicolas Roudaire <nikrou77@gmail.com>
 Uploaders: Jeremy T. Bouse <jbouse@debian.org>
-Build-Depends: debhelper (>> 8)
-Standards-Version: 3.9.4
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.5
 Homepage: http://swiftmailer.org/
 Vcs-Git: git://anonscm.debian.org/collab-maint/swift.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/swift.git
