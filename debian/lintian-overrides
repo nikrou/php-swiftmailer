@@ -1,4 +1,4 @@
 # Upstream distribute it like this. That script is used to generate mime types
 # used by swiftmailer.
 # tell lintian to not complain:
-libphp-swiftmailer: script-not-executable
+php-swiftmailer: script-not-executable

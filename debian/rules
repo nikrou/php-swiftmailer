@@ -14,5 +14,5 @@
 
 override_dh_installdocs:
 	dh_installdocs
-	rm debian/libphp-swiftmailer/usr/share/doc/libphp-swiftmailer/test-suite/LICENSE
-	rm debian/libphp-swiftmailer/usr/share/doc/libphp-swiftmailer/test-suite/lib/simpletest/LICENSE
+	rm debian/php-swiftmailer/usr/share/doc/php-swiftmailer/test-suite/LICENSE
+	rm debian/php-swiftmailer/usr/share/doc/php-swiftmailer/test-suite/lib/simpletest/LICENSE
