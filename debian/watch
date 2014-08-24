@@ -1,4 +1,2 @@
 version=3
-http://swiftmailer.org/download \
-/download_file/Swift-([\d\.]+).tar.gz
-
+https://github.com/swiftmailer/swiftmailer/tags .*/archive/v(\d[\d\.]*).tar.gz
