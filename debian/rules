@@ -10,9 +10,4 @@
 # export DH_VERBOSE=1
 
 %:
-	dh  $@
-
-override_dh_installdocs:
-	dh_installdocs
-	rm debian/php-swiftmailer/usr/share/doc/php-swiftmailer/test-suite/LICENSE
-	rm debian/php-swiftmailer/usr/share/doc/php-swiftmailer/test-suite/lib/simpletest/LICENSE
+	dh $@ --with phpcomposer
