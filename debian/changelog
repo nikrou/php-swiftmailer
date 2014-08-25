@@ -1,3 +1,19 @@
+libphp-swiftmailer (5.2.1-1) unstable; urgency=medium
+
+  [ Daniel Beyer ]
+  * Rename binary package to php-swiftmailer
+
+  [ Jeremy T. Bouse ]
+  * Update Vcs fields and accept package rename patch.
+    Thanks to Daniel Beyer <dabe@deb.ymc.ch> (Closes: #757197)
+  * Update debian/watch for new upstream location
+  * Add import-orig filter config to gbp.conf
+  * Imported Upstream version 5.2.1
+  * debian/control: Update Build-Depends to use pkg-php-tools
+  * debian/lintian-overrides: Remove unused overrides
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Mon, 25 Aug 2014 13:26:49 -0400
+
 libphp-swiftmailer (5.1.0-1) unstable; urgency=low
 
   * Imported Upstream version 5.1.0
