@@ -1,3 +1,11 @@
+libphp-swiftmailer (5.2.2-1) unstable; urgency=medium
+
+  * debian/gbp.conf: Update postbuild for git-buildpackage
+  * Imported Upstream version 5.2.2
+  * Update gbp.conf for newer version
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Tue, 23 Sep 2014 14:40:02 -0400
+
 libphp-swiftmailer (5.2.1-1) unstable; urgency=medium
 
   [ Daniel Beyer ]
