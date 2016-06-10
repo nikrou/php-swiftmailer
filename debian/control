@@ -4,16 +4,19 @@ Priority: optional
 Maintainer: Nicolas Roudaire <nikrou77@gmail.com>
 Uploaders: Jeremy T. Bouse <jbouse@debian.org>
 Build-Depends: debhelper (>> 9.0.0),
-	pkg-php-tools (>= 1.7~)
-Standards-Version: 3.9.6
+               pkg-php-tools (>= 1.7~)
+Standards-Version: 3.9.8
 Homepage: http://swiftmailer.org/
-Vcs-Git: git://github.com/jbouse-debian/php-swiftmailer.git
+Vcs-Git: https://github.com/jbouse-debian/php-swiftmailer.git
 Vcs-Browser: https://github.com/jbouse-debian/php-swiftmailer
 
 Package: php-swiftmailer
 Architecture: all
-Depends: ${misc:Depends}, php5-cli, ${phpcomposer:Debian-require}
-Suggests: php5, ${phpcomposer:Debian-suggests}
+Depends: php5-cli,
+         ${misc:Depends},
+         ${phpcomposer:Debian-require}
+Suggests: php5,
+          ${phpcomposer:Debian-suggests}
 Replaces: libphp-swiftmailer (<<5.1.0-1~)
 Breaks: libphp-swiftmailer (<<5.1.0-1~)
 Provides: libphp-swiftmailer
@@ -30,8 +33,8 @@ Description: ${phpcomposer:description}
   - large attachments and inline/embedded images with low memory use
 
 Package: libphp-swiftmailer
-Depends: ${misc:Depends}, php-swiftmailer
+Depends: php-swiftmailer,
+         ${misc:Depends}
 Architecture: all
-Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
