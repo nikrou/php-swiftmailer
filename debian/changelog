@@ -1,3 +1,13 @@
+libphp-swiftmailer (5.4.2-1) unstable; urgency=medium
+
+  * Imported Upstream version 5.4.2
+  * Improve watch file
+  * Update Standards-Version (no changes needed)
+  * Prepare for php7.0 transition (Closes: 821617)
+  * Ensure swiftmailer_generate_mimes_config.php is not executable
+
+ -- Jeremy T. Bouse <jbouse@debian.org>  Fri, 10 Jun 2016 10:26:42 -0400
+
 libphp-swiftmailer (5.4.1-1) unstable; urgency=medium
 
   * Imported Upstream version 5.4.1
