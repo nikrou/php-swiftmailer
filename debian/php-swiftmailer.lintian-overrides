@@ -1,0 +1,1 @@
+php-swiftmailer: script-not-executable usr/share/php/Swift/swiftmailer_generate_mimes_config.php

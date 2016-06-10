@@ -11,3 +11,8 @@
 
 %:
 	dh $@ --with phpcomposer
+
+override_dh_fixperms:
+	dh_fixperms --
+
+	find debian/php-swiftmailer/usr/share/php/Swift -type f -print0 | xargs -r0 chmod -x ;
