@@ -12,10 +12,10 @@ Vcs-Browser: https://github.com/jbouse-debian/php-swiftmailer
 
 Package: php-swiftmailer
 Architecture: all
-Depends: php5-cli,
+Depends: php-cli,
          ${misc:Depends},
          ${phpcomposer:Debian-require}
-Suggests: php5,
+Suggests: libapache2-mod-php | php,
           ${phpcomposer:Debian-suggests}
 Replaces: libphp-swiftmailer (<<5.1.0-1~)
 Breaks: libphp-swiftmailer (<<5.1.0-1~)
