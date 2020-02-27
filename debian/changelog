@@ -1,3 +1,15 @@
+libphp-swiftmailer (6.2.3-1) UNRELEASED; urgency=medium
+
+  [ Nicolas Roudaire ]
+  * Imported upstream version 6.2.3 (Closes: #951591)
+  * Upgrade Standards-Version to 4.5.0
+  * debian/control: Update debhelper-compat to 12
+  * debian/compat: Remove because of debhelper-compat in debian/control
+  * Update debian/copyright
+  * Add debian/upstream/metadata
+
+ -- Nicolas Roudaire <nikrou77@gmail.com>  Thu, 27 Feb 2020 11:44:59 +0100
+
 libphp-swiftmailer (5.4.2-1) unstable; urgency=medium
 
   * Imported Upstream version 5.4.2

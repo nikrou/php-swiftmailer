@@ -1,10 +1,10 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Swift Mailer
 Source: http://swiftmailer.org/
 
 Files: *
 Copyright: 2004-2009 Chris Corbyn       http://swiftmailer.org/
-           2009-2013 Fabien Potencier
+           2009-2020 Fabien Potencier
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@ License: MIT
  THE SOFTWARE.
 
 Files: debian/*
-Copyright: 2010-13, Nicolas Roudaire <nikrou77@gmail.com>
+Copyright: 2010-20, Nicolas Roudaire <nikrou77@gmail.com>
            2010-11, Jeremy T. Bouse <jbouse@debian.org>
 License: GPL-2
  This package is free software; you can redistribute it and/or modify
